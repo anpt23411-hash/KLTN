@@ -1,0 +1,18 @@
+{
+  "data_path": "data/raw/E Commerce Dataset (1).xlsx",
+  "sheet": "E Comm",
+  "label_source": "https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction; accessed 2026-10-25; page description unavailable; Data Dict only says Churn Flag",
+  "positive_label_meaning": "unverified_technical_class_1",
+  "label_semantics_verified": false,
+  "algorithms": ["logistic_regression", "random_forest", "extra_trees", "hist_gradient_boosting", "xgboost"],
+  "scenarios": {
+    "P0": {"sampling": "none", "class_weight": false, "log1p": true},
+    "P1": {"sampling": "none", "class_weight": true, "log1p": true},
+    "P2": {"sampling": "random_over", "class_weight": false, "log1p": true},
+    "P3": {"sampling": "smotenc", "class_weight": false, "log1p": true}
+  },
+  "new_customer_max_tenure": 0,
+  "categorical_columns": ["PreferredLoginDevice", "CityTier", "PreferredPaymentMode", "Gender", "PreferedOrderCat", "SatisfactionScore", "MaritalStatus", "Complain"],
+  "bootstrap_iterations": 1000,
+  "n_jobs": 1
+}

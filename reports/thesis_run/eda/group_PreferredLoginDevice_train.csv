@@ -1,0 +1,3 @@
+group,count,positive_rate,feature
+Computer,1148,0.19337979094076654,PreferredLoginDevice
+Mobile Phone,2910,0.1549828178694158,PreferredLoginDevice

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "benchmark_rows": 22,
+  "repeated_fold_rows": 330,
+  "oof_holdout_disjoint": true,
+  "oof_rows": 4058,
+  "holdout_rows": 1015,
+  "scores_reproduced": true,
+  "tuning_trials_per_algorithm": 10,
+  "holdout_previously_observed": true,
+  "verification_uses_saved_predictions_no_model_reselection": true
+}

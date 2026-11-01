@@ -1,0 +1,8 @@
+﻿stage,status,seconds
+prepare,completed,4.26554210006725
+features,completed,33.07516400003806
+smoke,completed,3.2523441000375897
+benchmark,completed,123.80736750003416
+tune,completed,1540.0318773000035
+robustness,completed,25.472707099979743
+finalize,completed,33.79379720008001

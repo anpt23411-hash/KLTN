@@ -1,0 +1,6 @@
+group,count,positive_rate,feature
+1,855,0.1239766081871345,SatisfactionScore
+2,471,0.10615711252653928,SatisfactionScore
+3,1198,0.17445742904841402,SatisfactionScore
+4,753,0.16334661354581673,SatisfactionScore
+5,781,0.23687580025608196,SatisfactionScore

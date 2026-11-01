@@ -1,0 +1,4 @@
+﻿risk_group,count,positive_count,positive_rate
+low,3291,60,0.018231540565177756
+medium,173,71,0.41040462427745666
+high,594,542,0.9124579124579124

@@ -1,0 +1,52 @@
+risk_group,category,fraction,feature
+high,Computer,0.34810126582278483,PreferredLoginDevice
+high,Mobile Phone,0.6518987341772152,PreferredLoginDevice
+low,Computer,0.2954822954822955,PreferredLoginDevice
+low,Mobile Phone,0.7045177045177046,PreferredLoginDevice
+medium,Computer,0.3157894736842105,PreferredLoginDevice
+medium,Mobile Phone,0.6842105263157895,PreferredLoginDevice
+high,Cash on Delivery,0.11392405063291139,PreferredPaymentMode
+high,Credit Card,0.2721518987341772,PreferredPaymentMode
+high,Debit Card,0.379746835443038,PreferredPaymentMode
+high,E wallet,0.15822784810126583,PreferredPaymentMode
+high,UPI,0.0759493670886076,PreferredPaymentMode
+low,Cash on Delivery,0.08669108669108669,PreferredPaymentMode
+low,Credit Card,0.32722832722832723,PreferredPaymentMode
+low,Debit Card,0.4017094017094017,PreferredPaymentMode
+low,E wallet,0.10866910866910867,PreferredPaymentMode
+low,UPI,0.0757020757020757,PreferredPaymentMode
+medium,Cash on Delivery,0.10526315789473684,PreferredPaymentMode
+medium,Credit Card,0.3157894736842105,PreferredPaymentMode
+medium,Debit Card,0.42105263157894735,PreferredPaymentMode
+medium,E wallet,0.13157894736842105,PreferredPaymentMode
+medium,UPI,0.02631578947368421,PreferredPaymentMode
+high,Female,0.44936708860759494,Gender
+high,Male,0.5506329113924051,Gender
+low,Female,0.4004884004884005,Gender
+low,Male,0.5995115995115995,Gender
+medium,Female,0.4473684210526316,Gender
+medium,Male,0.5526315789473685,Gender
+high,Fashion,0.13924050632911392,PreferedOrderCat
+high,Grocery,0.0189873417721519,PreferedOrderCat
+high,Laptop & Accessory,0.27848101265822783,PreferedOrderCat
+high,Mobile Phone,0.5506329113924051,PreferedOrderCat
+high,Others,0.012658227848101266,PreferedOrderCat
+low,Fashion,0.15506715506715507,PreferedOrderCat
+low,Grocery,0.08791208791208792,PreferedOrderCat
+low,Laptop & Accessory,0.4053724053724054,PreferedOrderCat
+low,Mobile Phone,0.304029304029304,PreferedOrderCat
+low,Others,0.047619047619047616,PreferedOrderCat
+medium,Fashion,0.05263157894736842,PreferedOrderCat
+medium,Grocery,0.02631578947368421,PreferedOrderCat
+medium,Laptop & Accessory,0.2631578947368421,PreferedOrderCat
+medium,Mobile Phone,0.631578947368421,PreferedOrderCat
+medium,Others,0.02631578947368421,PreferedOrderCat
+high,Divorced,0.13291139240506328,MaritalStatus
+high,Married,0.34810126582278483,MaritalStatus
+high,Single,0.5189873417721519,MaritalStatus
+low,Divorced,0.15506715506715507,MaritalStatus
+low,Married,0.5641025641025641,MaritalStatus
+low,Single,0.28083028083028083,MaritalStatus
+medium,Divorced,0.21052631578947367,MaritalStatus
+medium,Married,0.39473684210526316,MaritalStatus
+medium,Single,0.39473684210526316,MaritalStatus

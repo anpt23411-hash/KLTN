@@ -1,0 +1,16 @@
+# Trạng thái thành phần kiến trúc AI Agent
+
+Vị trí: §3.10.2; §3.11.
+
+Nguồn: src/predict.py; artifacts; reports/thesis_extracted.txt:1231–1245.
+
+Trạng thái: Lõi ML xác minh; tích hợp Agent là kiến trúc đề xuất chưa kiểm thử.
+
+| Thành phần | Trạng thái | Căn cứ | Phạm vi/đề xuất |
+|---|---|---|---|
+| Schema và suy luận cục bộ | Đã có | src/predict.py:predict_frame; pipeline.joblib; metadata.json | Nhận DataFrame đặc trưng; không ID/Churn/cột thừa; trả xác suất, nhãn, điểm, nhóm |
+| Diễn giải đã lưu | Đã có cho mẫu train | shap_local_contributions.csv; shap_metadata.json | Chưa có endpoint giải thích hồ sơ mới |
+| Tra cứu CRM/hồ sơ theo ID | Chưa triển khai | Không tìm thấy trong src/; Chương3 chỉ có đề mục §3.10 | Đề xuất adapter truy xuất và phân quyền |
+| Agent điều phối/tool adapter/API | Chưa triển khai | src/predict.py là CLI; không phải API service | Đề xuất lớp gọi công cụ xác định, không tự sinh điểm |
+| LLM và giao diện/báo cáo cá nhân | Chưa triển khai | Không có triển khai trong mã hiện có | Đề xuất nhận kết quả công cụ, trình bày có nguồn |
+| Kiểm thử Agent/latency/chi phí API | Chưa có kết quả | §3.11 chỉ có đề mục trong bản trích | Cần bộ tình huống và log thực tế; không tạo số liệu |

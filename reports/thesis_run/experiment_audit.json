@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "method": "Read saved files only; no fit, predict_proba, holdout reevaluation or bootstrap rerun",
+  "config_and_dataset_match": true,
+  "stages": [
+    {
+      "stage": "prepare",
+      "status": "completed",
+      "seconds": 4.26554210006725,
+      "missing_outputs": []
+    },
+    {
+      "stage": "features",
+      "status": "completed",
+      "seconds": 33.07516400003806,
+      "missing_outputs": []
+    },
+    {
+      "stage": "smoke",
+      "status": "completed",
+      "seconds": 3.2523441000375897,
+      "missing_outputs": []
+    },
+    {
+      "stage": "benchmark",
+      "status": "completed",
+      "seconds": 123.80736750003416,
+      "missing_outputs": []
+    },
+    {
+      "stage": "tune",
+      "status": "completed",
+      "seconds": 1540.0318773000035,
+      "missing_outputs": []
+    },
+    {
+      "stage": "robustness",
+      "status": "completed",
+      "seconds": 25.472707099979743,
+      "missing_outputs": []
+    },
+    {
+      "stage": "finalize",
+      "status": "completed",
+      "seconds": 33.79379720008001,
+      "missing_outputs": []
+    }
+  ],
+  "missing_or_failed_stages": [],
+  "benchmark_rows": 22,
+  "repeated_fold_rows": 330,
+  "shap_saved_additivity_max_error": 1.4210854715202004e-14,
+  "historical_error": {
+    "error": "SHAP interventional additivity failed in first finalize attempt",
+    "resolution": "TreeExplainer_tree_path_dependent",
+    "active_error": false
+  },
+  "holdout_previously_observed": true
+}

@@ -1,0 +1,10 @@
+{
+  "RQ1_H1": "Descriptive paired fold comparisons only; no independent-fold significance claim",
+  "RQ2_H2": {
+    "adjacent_score_rate_decreases_holdout": 1,
+    "strict_monotonicity_observed": false,
+    "caution": "Unequal/small score groups and fixed-model sampling uncertainty; not causal or prospective validation"
+  },
+  "RQ3": "Validation-fold permutation; real-background grouped SHAP with local signed contributions; reference LR odds ratios",
+  "RQ4_H3": "Excluded by user: no Agent, LLM, API or application UI"
+}

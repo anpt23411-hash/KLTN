@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "completed_stages": [
+    "benchmark",
+    "features",
+    "finalize",
+    "prepare",
+    "robustness",
+    "smoke",
+    "tune"
+  ]
+}

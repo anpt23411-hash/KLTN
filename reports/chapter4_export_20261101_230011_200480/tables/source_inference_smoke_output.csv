@@ -1,0 +1,6 @@
+row_reference,scope,probability_label_1,prediction_label,score,risk_group
+0,in_sample_inference_smoke,0.006570623418389309,0,1,low
+1,in_sample_inference_smoke,0.01809381177251517,0,1,low
+2,in_sample_inference_smoke,0.9638240547405087,1,10,high
+3,in_sample_inference_smoke,0.003981533471151246,0,1,low
+4,in_sample_inference_smoke,0.006121161263387336,0,1,low

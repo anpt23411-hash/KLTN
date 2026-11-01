@@ -1,0 +1,4 @@
+group,count,positive_rate,feature
+Divorced,692,0.1416184971098266,MaritalStatus
+Married,2140,0.1130841121495327,MaritalStatus
+Single,1226,0.27161500815660683,MaritalStatus

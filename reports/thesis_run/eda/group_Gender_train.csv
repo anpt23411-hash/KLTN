@@ -1,0 +1,3 @@
+group,count,positive_rate,feature
+Female,1610,0.14472049689440994,Gender
+Male,2448,0.17973856209150327,Gender

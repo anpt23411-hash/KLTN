@@ -1,0 +1,27 @@
+test_bootstrap_reproducible_and_counts (test_core.Contracts.test_bootstrap_reproducible_and_counts) ... ok
+test_calibration_oof_and_roundtrip (test_core.Contracts.test_calibration_oof_and_roundtrip) ... ok
+test_conflicting_labels_fail (test_core.Contracts.test_conflicting_labels_fail) ... ok
+test_deduplicate_after_id_removed_and_alias_normalization (test_core.Contracts.test_deduplicate_after_id_removed_and_alias_normalization) ... ok
+test_eda_fdr_and_no_outlier_deletion (test_core.Contracts.test_eda_fdr_and_no_outlier_deletion) ... ok
+test_features_train_only_and_unknown_tenure (test_core.Contracts.test_features_train_only_and_unknown_tenure) ... ok
+test_missing_research_definitions_block_benchmark (test_core.Contracts.test_missing_research_definitions_block_benchmark) ... ok
+test_pipeline_smote_serialization_and_unseen_category (test_core.Contracts.test_pipeline_smote_serialization_and_unseen_category) ... ok
+test_registry_estimators_cv_compatible (test_core.Contracts.test_registry_estimators_cv_compatible) ... ok
+test_score_edges (test_core.Contracts.test_score_edges) ... ok
+test_unknown_label_fail (test_core.Contracts.test_unknown_label_fail) ... ok
+test_xgboost_fold_balanced_weights (test_core.Contracts.test_xgboost_fold_balanced_weights) ... ok
+test_fold_preprocessing_and_no_validation_resampling (test_thesis.ThesisContracts.test_fold_preprocessing_and_no_validation_resampling) ... ok
+test_local_inference_contract (test_thesis.ThesisContracts.test_local_inference_contract) ... ok
+test_modal_reference_not_changed_by_resampling (test_thesis.ThesisContracts.test_modal_reference_not_changed_by_resampling) ... ok
+test_oof_repeated_folds_rejected (test_thesis.ThesisContracts.test_oof_repeated_folds_rejected) ... ok
+test_probability_class_guard (test_thesis.ThesisContracts.test_probability_class_guard) ... ok
+test_ratios_not_computed_after_imputation (test_thesis.ThesisContracts.test_ratios_not_computed_after_imputation) ... ok
+test_raw_prediction_roundtrip_unseen_category_and_order (test_thesis.ThesisContracts.test_raw_prediction_roundtrip_unseen_category_and_order) ... ok
+test_report_risk_boundaries_and_threshold (test_thesis.ThesisContracts.test_report_risk_boundaries_and_threshold) ... ok
+test_schema_aliases_and_missing_source (test_thesis.ThesisContracts.test_schema_aliases_and_missing_source) ... ok
+test_smote_preserves_binary_flags_and_newcustomer_logic (test_thesis.ThesisContracts.test_smote_preserves_binary_flags_and_newcustomer_logic) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.896s
+
+OK

@@ -1,0 +1,20 @@
+flowchart TB
+  %% AI Agent đánh giá nguy cơ — KIẾN TRÚC ĐỀ XUẤT
+  U["Người dùng → giao diện nhận yêu cầu<br/>Đề xuất — chưa có giao diện"]:::proposed
+  A["Agent điều phối + LLM<br/>Đề xuất — chưa triển khai/kiểm thử"]:::proposed
+  D["Truy xuất hồ sơ / CRM<br/>Phân quyền, kiểm tra ID<br/>Chưa có kết nối dữ liệu"]:::proposed
+  W["Tool adapter / API service<br/>Đóng gói suy luận/diễn giải<br/>Chưa triển khai"]:::proposed
+  M["Lõi suy luận cục bộ ĐÃ CÓ: predict_frame<br/>Kiểm tra schema → pipeline.joblib + metadata.json<br/>Chỉ đặc trưng; không đưa ID/Churn vào mô hình"]:::implemented
+  S["Đầu ra xác định ĐÃ CÓ<br/>Xác suất → nhãn theo t*; điểm 1–10; ba nhóm nguy cơ"]:::implemented
+  R["Đề xuất: Agent nhận kết quả có nguồn, trình bày báo cáo<br/>Không tự tạo xác suất/điểm; xử lý lỗi và ghi log<br/>SHAP đã lưu chỉ cho mẫu train, chưa có dịch vụ hồ sơ mới"]:::proposed
+  T["Đề xuất: kiểm thử tool/tra cứu/khớp kết quả/giải thích<br/>Latency và chi phí API — chưa có số liệu kiểm thử"]:::proposed
+  U -.-> A
+  A -.-> D
+  A -.-> W
+  D -.->|"hồ sơ hợp lệ"| W
+  W -.-> M
+  M --> S
+  S -.-> R
+  R -.-> T
+  classDef implemented fill:#e5f1f7,stroke:#22617d,color:#153a4c;
+  classDef proposed fill:#fff1db,stroke:#b77420,stroke-dasharray:5 4,color:#6a461a;

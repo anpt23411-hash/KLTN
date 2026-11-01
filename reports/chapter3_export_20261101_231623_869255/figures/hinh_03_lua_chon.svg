@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="595.44pt" height="841.68pt" viewBox="0 0 595.44 841.68" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-01T23:16:25.980628</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 841.68 
+L 595.44 841.68 
+L 595.44 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 297.72 110.134015 
+Q 297.72 122.969503 297.72 134.686957 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 130.686957 
+L 297.72 134.686957 
+L 295.72 130.686957 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 297.72 186.053551 
+Q 297.72 198.889039 297.72 210.606493 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 206.606493 
+L 297.72 210.606493 
+L 295.72 206.606493 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 297.72 261.973087 
+Q 297.72 274.808575 297.72 286.526029 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 282.526029 
+L 297.72 286.526029 
+L 295.72 282.526029 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 297.72 337.892623 
+Q 297.72 350.728111 297.72 362.445565 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 358.445565 
+L 297.72 362.445565 
+L 295.72 358.445565 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 297.72 413.812201 
+Q 297.72 426.131737 297.72 437.333238 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 433.333238 
+L 297.72 437.333238 
+L 295.72 433.333238 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 297.72 504.567354 
+Q 297.72 520.338156 297.72 534.990924 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 530.990924 
+L 297.72 534.990924 
+L 295.72 530.990924 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 297.72 586.351546 
+Q 297.72 606.094116 297.72 624.718651 
+" clip-path="url(#p55471998d2)" style="fill: none; stroke: #546572; stroke-linecap: round"/>
+    <path d="M 299.72 620.718651 
+L 297.72 624.718651 
+L 295.72 620.718651 
+z
+" clip-path="url(#p55471998d2)" style="fill: #546572; stroke: #546572; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 65.141136 112.961873 
+L 530.298864 112.961873 
+Q 534.175178 112.961873 534.175178 108.13063 
+L 534.175178 61.88873 
+Q 534.175178 57.057487 530.298864 57.057487 
+L 65.141136 57.057487 
+Q 61.264822 57.057487 61.264822 61.88873 
+L 61.264822 108.13063 
+Q 61.264822 112.961873 65.141136 112.961873 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 65.141136 188.881409 
+L 530.298864 188.881409 
+Q 534.175178 188.881409 534.175178 184.050166 
+L 534.175178 137.808266 
+Q 534.175178 132.977023 530.298864 132.977023 
+L 65.141136 132.977023 
+Q 61.264822 132.977023 61.264822 137.808266 
+L 61.264822 184.050166 
+Q 61.264822 188.881409 65.141136 188.881409 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 65.141136 264.800945 
+L 530.298864 264.800945 
+Q 534.175178 264.800945 534.175178 259.969702 
+L 534.175178 213.727802 
+Q 534.175178 208.896559 530.298864 208.896559 
+L 65.141136 208.896559 
+Q 61.264822 208.896559 61.264822 213.727802 
+L 61.264822 259.969702 
+Q 61.264822 264.800945 65.141136 264.800945 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 65.141136 340.720481 
+L 530.298864 340.720481 
+Q 534.175178 340.720481 534.175178 335.889238 
+L 534.175178 289.647338 
+Q 534.175178 284.816095 530.298864 284.816095 
+L 65.141136 284.816095 
+Q 61.264822 284.816095 61.264822 289.647338 
+L 61.264822 335.889238 
+Q 61.264822 340.720481 65.141136 340.720481 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 65.141136 416.640017 
+L 530.298864 416.640017 
+Q 534.175178 416.640017 534.175178 411.808774 
+L 534.175178 365.566874 
+Q 534.175178 360.735631 530.298864 360.735631 
+L 65.141136 360.735631 
+Q 61.264822 360.735631 61.264822 365.566874 
+L 61.264822 411.808774 
+Q 61.264822 416.640017 65.141136 416.640017 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 65.141136 507.398371 
+L 530.298864 507.398371 
+Q 534.175178 507.398371 534.175178 502.567128 
+L 534.175178 440.451144 
+Q 534.175178 435.619901 530.298864 435.619901 
+L 65.141136 435.619901 
+Q 61.264822 435.619901 61.264822 440.451144 
+L 61.264822 502.567128 
+Q 61.264822 507.398371 65.141136 507.398371 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 65.141136 589.184417 
+L 530.298864 589.184417 
+Q 534.175178 589.184417 534.175178 584.353174 
+L 534.175178 538.111274 
+Q 534.175178 533.280031 530.298864 533.280031 
+L 65.141136 533.280031 
+Q 61.264822 533.280031 61.264822 538.111274 
+L 61.264822 584.353174 
+Q 61.264822 589.184417 65.141136 589.184417 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 65.141136 678.907505 
+L 530.298864 678.907505 
+Q 534.175178 678.907505 534.175178 674.076262 
+L 534.175178 627.834362 
+Q 534.175178 623.003119 530.298864 623.003119 
+L 65.141136 623.003119 
+Q 61.264822 623.003119 61.264822 627.834362 
+L 61.264822 674.076262 
+Q 61.264822 678.907505 65.141136 678.907505 
+z
+" clip-path="url(#p55471998d2)" style="fill: #e5f1f7; stroke: #22617d; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(189.213516 82.314084)">Benchmark: 22 cấu hình; first 5-fold mean AP/Brier</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(201.345273 92.856409)">Repeated 15 fold còn dùng SD hiệu ghép cặp</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(180.029531 158.312644)">Mỗi thuật toán: mốc AP cao nhất; duyệt P0→P1→P2→P3</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(176.357266 168.941296)">Giảm AP≤max(0,005; SD hiệu 15 fold), tăng Brier≤0,005</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(184.849297 233.95593)">Xếp 5 đại diện theo mean AP → shortlist 2 thuật toán</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(179.699492 244.892707)">Giữ scenario; không lấy trực tiếp top 2 toàn benchmark</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(187.081211 309.875466)">RandomizedSearchCV: 10 trial × inner3 / thuật toán</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(197.861602 320.41779)">Đánh giá lại tuned và untuned trên cùng 5 fold</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(172.02293 386.016799)">Giữ mốc mean AP cao nhất; đổi sang Brier thấp hơn chỉ khi</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(212.391953 396.645451)">AP giảm≤0,005 và ECE OOF không tăng</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(215.991836 462.92812)">Sigmoid: outer5, inner3 chỉ outer-train</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(167.240352 473.864898)">Nhận nếu mean AP giảm≤0,005 và Brier/ECE OOF cùng giảm</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(166.213047 484.937144)">Không đạt: giữ raw; thiếu cal_scores lưu nên chưa tái kiểm AP</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(217.918945 558.339402)">OOF của phiên bản giữ lại → tối đa F1</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(202.093672 569.276179)">Hòa: recall cao hơn, sau đó ngưỡng thấp hơn</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(188.635781 648.259716)">Cố định mô hình/calibration/ngưỡng → fit toàn train</text>
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans'" transform="translate(194.880625 658.802041)">Lưu artifact → robustness → finalize trên holdout</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="297.72" y="35.648369" transform="rotate(-0 297.72 35.648369)">Benchmark, lựa chọn, calibration và ngưỡng</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(35.7264 798.975106)">Nguồn: src/thesis.py:tune; src/evaluation.py:choose_threshold. AP mean fold không phải AP OOF gộp; Brier/ECE</text>
+   <text style="font-size: 8px; font-family: 'DejaVu Sans'" transform="translate(35.7264 809.498544)">dùng OOF gộp. SD không là CI hoặc kiểm định tương đương. CV chọn trên train vẫn có thiên lệch lựa chọn.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p55471998d2">
+   <rect x="20.8404" y="50.5008" width="553.7592" height="690.1776"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,55 @@
+{
+  "reference_categories": {
+    "Gender": [
+      "Male",
+      "Female"
+    ],
+    "MaritalStatus": [
+      "Married",
+      "Divorced",
+      "Single"
+    ],
+    "PreferredLoginDevice": [
+      "Mobile Phone",
+      "Computer"
+    ],
+    "PreferredPaymentMode": [
+      "Debit Card",
+      "Cash on Delivery",
+      "Credit Card",
+      "E wallet",
+      "UPI"
+    ],
+    "PreferedOrderCat": [
+      "Mobile Phone",
+      "Fashion",
+      "Grocery",
+      "Laptop & Accessory",
+      "Others"
+    ]
+  },
+  "scaled_columns": [
+    "Tenure",
+    "CityTier",
+    "WarehouseToHome",
+    "HourSpendOnApp",
+    "NumberOfDeviceRegistered",
+    "SatisfactionScore",
+    "NumberOfAddress",
+    "OrderAmountHikeFromlastYear",
+    "CouponUsed",
+    "OrderCount",
+    "DaySinceLastOrder",
+    "CashbackAmount"
+  ],
+  "log_columns": [
+    "WarehouseToHome",
+    "NumberOfAddress",
+    "CouponUsed",
+    "OrderCount",
+    "DaySinceLastOrder",
+    "CashbackAmount"
+  ],
+  "scope": "reference_LR_fit_on_train",
+  "note": "First category per nominal field omitted; conditional regularized odds ratios, not causal effects"
+}

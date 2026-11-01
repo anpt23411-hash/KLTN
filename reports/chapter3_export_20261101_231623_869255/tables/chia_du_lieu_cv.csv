@@ -1,0 +1,7 @@
+﻿Thành phần,Thiết lập,Phạm vi
+Dữ liệu trước/sau sạch,5630 / 5073 dòng,Dữ liệu; không phải hiệu năng
+Train / holdout,"4058 / 1015 dòng; stratify Churn, test_size=0.2, seed=42",Sau làm sạch; holdout từng quan sát pilot
+Đặc trưng/mất cân bằng,RepeatedStratifiedKFold 5×3; seed=42,Chỉ train; fold chồng lấn
+Benchmark chọn đại diện,Fold 0–4 của repeated; 5 thuật toán×4 P + 2 dummy,Mean/SD 5 fold; không cộng thêm 110 lượt vào 330
+Tuning,RandomizedSearchCV; 10 trial×3 fold; refit=AP; n_jobs=1,Hai thuật toán shortlist; giữ scenario
+Sau tuning / calibration,Cùng 5-fold StratifiedKFold; sigmoid inner 3-fold,OOF ngoài; inner chỉ outer-train; không phải nested model selection độc lập

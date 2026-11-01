@@ -1,0 +1,143 @@
+﻿duong_dan,loai,pham_vi
+reports/.matplotlib/fontlist-v3.11.0.json,json,pilot/khác; không dùng làm kết quả chính
+reports/artifact_verification.json,json,pilot/khác; không dùng làm kết quả chính
+reports/benchmark_folds_train_cv.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/benchmark_train_cv.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/calibration_oof.png,png,pilot/khác; không dùng làm kết quả chính
+reports/calibration_test.png,png,pilot/khác; không dùng làm kết quả chính
+reports/cv_manifest.json,json,pilot/khác; không dùng làm kết quả chính
+reports/data_audit.json,json,pilot/khác; không dùng làm kết quả chính
+reports/eda/descriptive_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/eda/hypothesis_tests_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/eda/iqr_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/execution_status.json,json,pilot/khác; không dùng làm kết quả chính
+reports/inspection.json,json,pilot/khác; không dùng làm kết quả chính
+reports/lr_coefficients_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/lr_interpretation.json,json,pilot/khác; không dùng làm kết quả chính
+reports/metrics_test.json,json,pilot/khác; không dùng làm kết quả chính
+reports/permutation_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/predictions_oof.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/predictions_test.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/RESULTS.md,md,pilot/khác; không dùng làm kết quả chính
+reports/risk_oof.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/risk_test.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/selection.json,json,pilot/khác; không dùng làm kết quả chính
+reports/shap_scale.json,json,pilot/khác; không dùng làm kết quả chính
+reports/shap_train.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/smoke.json,json,pilot/khác; không dùng làm kết quả chính
+reports/split_manifest.json,json,pilot/khác; không dùng làm kết quả chính
+reports/thesis_run/artifact_verification.json,json,thesis_run
+reports/thesis_run/benchmark.csv,csv,thesis_run
+reports/thesis_run/benchmark_repeated_folds.csv,csv,thesis_run
+reports/thesis_run/calibration_bins_sigmoid_oof.csv,csv,thesis_run
+reports/thesis_run/calibration_bins_uncalibrated_oof.csv,csv,thesis_run
+reports/thesis_run/config_snapshot.json,json,thesis_run
+reports/thesis_run/cv_manifest.json,json,thesis_run
+reports/thesis_run/data_audit.json,json,thesis_run
+reports/thesis_run/eda/boxplots_by_label_train.png,png,thesis_run
+reports/thesis_run/eda/descriptive_train.csv,csv,thesis_run
+reports/thesis_run/eda/distributions_train.png,png,thesis_run
+reports/thesis_run/eda/group_CityTier_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_Complain_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_Gender_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_MaritalStatus_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_PreferedOrderCat_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_PreferredLoginDevice_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_PreferredPaymentMode_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_rates_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_SatisfactionScore_train.csv,csv,thesis_run
+reports/thesis_run/eda/group_Tenure_train.csv,csv,thesis_run
+reports/thesis_run/eda/high_correlation_pairs.csv,csv,thesis_run
+reports/thesis_run/eda/hypothesis_tests_train.csv,csv,thesis_run
+reports/thesis_run/eda/iqr_train.csv,csv,thesis_run
+reports/thesis_run/eda/medians_train.csv,csv,thesis_run
+reports/thesis_run/eda/missing_association_train.csv,csv,thesis_run
+reports/thesis_run/eda/missingness_train.png,png,thesis_run
+reports/thesis_run/eda/positive_rate_by_group_train.png,png,thesis_run
+reports/thesis_run/eda/spearman_heatmap_train.png,png,thesis_run
+reports/thesis_run/eda/spearman_matrix_train.csv,csv,thesis_run
+reports/thesis_run/execution_status.json,json,thesis_run
+reports/thesis_run/experiment_audit.json,json,thesis_run
+reports/thesis_run/feature_selection.json,json,thesis_run
+reports/thesis_run/feature_study.csv,csv,thesis_run
+reports/thesis_run/feature_study_folds.csv,csv,thesis_run
+reports/thesis_run/figures/calibration_bins_holdout.csv,csv,thesis_run
+reports/thesis_run/figures/calibration_bins_oof.csv,csv,thesis_run
+reports/thesis_run/figures/calibration_comparison_oof.png,png,thesis_run
+reports/thesis_run/figures/calibration_holdout.png,png,thesis_run
+reports/thesis_run/figures/calibration_oof.png,png,thesis_run
+reports/thesis_run/figures/confusion_holdout.png,png,thesis_run
+reports/thesis_run/figures/confusion_oof.png,png,thesis_run
+reports/thesis_run/figures/h2_monotonicity_holdout.csv,csv,thesis_run
+reports/thesis_run/figures/h2_monotonicity_oof.csv,csv,thesis_run
+reports/thesis_run/figures/permutation_importance.png,png,thesis_run
+reports/thesis_run/figures/precision_recall_holdout.png,png,thesis_run
+reports/thesis_run/figures/precision_recall_oof.png,png,thesis_run
+reports/thesis_run/figures/roc_holdout.png,png,thesis_run
+reports/thesis_run/figures/roc_oof.png,png,thesis_run
+reports/thesis_run/figures/score_distribution_holdout.png,png,thesis_run
+reports/thesis_run/figures/score_distribution_oof.png,png,thesis_run
+reports/thesis_run/figures/score_rates_holdout.csv,csv,thesis_run
+reports/thesis_run/figures/score_rates_holdout.png,png,thesis_run
+reports/thesis_run/figures/score_rates_oof.csv,csv,thesis_run
+reports/thesis_run/figures/score_rates_oof.png,png,thesis_run
+reports/thesis_run/figures/shap_beeswarm.png,png,thesis_run
+reports/thesis_run/figures/shap_grouped_bar.png,png,thesis_run
+reports/thesis_run/figures/shap_waterfall_high.png,png,thesis_run
+reports/thesis_run/figures/shap_waterfall_low.png,png,thesis_run
+reports/thesis_run/figures/shap_waterfall_middle.png,png,thesis_run
+reports/thesis_run/imbalance_repeated.csv,csv,thesis_run
+reports/thesis_run/inference_smoke_input.csv,csv,thesis_run
+reports/thesis_run/inference_smoke_output.csv,csv,thesis_run
+reports/thesis_run/lr_coefficients.csv,csv,thesis_run
+reports/thesis_run/lr_reference.json,json,thesis_run
+reports/thesis_run/metrics_ci_holdout.csv,csv,thesis_run
+reports/thesis_run/metrics_ci_oof.csv,csv,thesis_run
+reports/thesis_run/metrics_holdout.json,json,thesis_run
+reports/thesis_run/operational_timing.csv,csv,thesis_run
+reports/thesis_run/operational_timing_draws.csv,csv,thesis_run
+reports/thesis_run/paired_imbalance_deltas.csv,csv,thesis_run
+reports/thesis_run/permutation_folds.csv,csv,thesis_run
+reports/thesis_run/permutation_importance.csv,csv,thesis_run
+reports/thesis_run/post_tuning_folds.csv,csv,thesis_run
+reports/thesis_run/post_tuning_summary.csv,csv,thesis_run
+reports/thesis_run/predictions_holdout.csv,csv,thesis_run
+reports/thesis_run/predictions_oof.csv,csv,thesis_run
+reports/thesis_run/protected_artifacts_before_report.json,json,thesis_run
+reports/thesis_run/report_history/RESULTS.before_status_audit.md,md,thesis_run
+reports/thesis_run/report_refresh_verification.json,json,thesis_run
+reports/thesis_run/research_questions.json,json,thesis_run
+reports/thesis_run/RESULTS.md,md,thesis_run
+reports/thesis_run/risk_holdout.csv,csv,thesis_run
+reports/thesis_run/risk_oof.csv,csv,thesis_run
+reports/thesis_run/risk_profile_categorical_holdout.csv,csv,thesis_run
+reports/thesis_run/risk_profile_categorical_oof.csv,csv,thesis_run
+reports/thesis_run/risk_profile_numeric_holdout.csv,csv,thesis_run
+reports/thesis_run/risk_profile_numeric_oof.csv,csv,thesis_run
+reports/thesis_run/selection.json,json,thesis_run
+reports/thesis_run/sensitivity_folds.csv,csv,thesis_run
+reports/thesis_run/sensitivity_summary.csv,csv,thesis_run
+reports/thesis_run/shap_grouped_importance.csv,csv,thesis_run
+reports/thesis_run/shap_interventional_failure.json,json,thesis_run
+reports/thesis_run/shap_local_contributions.csv,csv,thesis_run
+reports/thesis_run/shap_metadata.json,json,thesis_run
+reports/thesis_run/shap_prediction_context.csv,csv,thesis_run
+reports/thesis_run/smoke.json,json,thesis_run
+reports/thesis_run/smotenc_k_study.csv,csv,thesis_run
+reports/thesis_run/source_manifest.json,json,thesis_run
+reports/thesis_run/split_manifest.json,json,thesis_run
+reports/thesis_run/stage_benchmark.json,json,thesis_run
+reports/thesis_run/stage_features.json,json,thesis_run
+reports/thesis_run/stage_finalize.json,json,thesis_run
+reports/thesis_run/stage_prepare.json,json,thesis_run
+reports/thesis_run/stage_robustness.json,json,thesis_run
+reports/thesis_run/stage_smoke.json,json,thesis_run
+reports/thesis_run/stage_tune.json,json,thesis_run
+reports/thesis_run/threshold_sweep_oof.csv,csv,thesis_run
+reports/thesis_run/tuning_hist_gradient_boosting.csv,csv,thesis_run
+reports/thesis_run/tuning_random_forest.csv,csv,thesis_run
+reports/thesis_run/tuning_shortlist.csv,csv,thesis_run
+reports/threshold_metrics_oof.json,json,pilot/khác; không dùng làm kết quả chính
+reports/threshold_metrics_test.json,json,pilot/khác; không dùng làm kết quả chính
+reports/tuning_extra_trees.csv,csv,pilot/khác; không dùng làm kết quả chính
+reports/tuning_random_forest.csv,csv,pilot/khác; không dùng làm kết quả chính

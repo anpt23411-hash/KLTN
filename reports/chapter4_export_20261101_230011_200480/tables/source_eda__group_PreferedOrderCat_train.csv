@@ -1,0 +1,6 @@
+group,count,positive_rate,feature
+Fashion,612,0.16339869281045752,PreferedOrderCat
+Grocery,290,0.04482758620689655,PreferedOrderCat
+Laptop & Accessory,1461,0.0999315537303217,PreferedOrderCat
+Mobile Phone,1495,0.2655518394648829,PreferedOrderCat
+Others,200,0.085,PreferedOrderCat

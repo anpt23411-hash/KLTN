@@ -1,0 +1,19 @@
+flowchart TB
+  %% Benchmark, lựa chọn, calibration và ngưỡng
+  A["Benchmark: 22 cấu hình; first 5-fold mean AP/Brier<br/>Repeated 15 fold còn dùng SD hiệu ghép cặp"]:::implemented
+  B["Mỗi thuật toán: mốc AP cao nhất; duyệt P0→P1→P2→P3<br/>Giảm AP≤max(0,005; SD hiệu 15 fold), tăng Brier≤0,005"]:::implemented
+  C["Xếp 5 đại diện theo mean AP → shortlist 2 thuật toán<br/>Giữ scenario; không lấy trực tiếp top 2 toàn benchmark"]:::implemented
+  D["RandomizedSearchCV: 10 trial × inner3 / thuật toán<br/>Đánh giá lại tuned và untuned trên cùng 5 fold"]:::implemented
+  E["Giữ mốc mean AP cao nhất; đổi sang Brier thấp hơn chỉ khi<br/>AP giảm≤0,005 và ECE OOF không tăng"]:::implemented
+  F["Sigmoid: outer5, inner3 chỉ outer-train<br/>Nhận nếu mean AP giảm≤0,005 và Brier/ECE OOF cùng giảm<br/>Không đạt: giữ raw; thiếu cal_scores lưu nên chưa tái kiểm AP"]:::implemented
+  G["OOF của phiên bản giữ lại → tối đa F1<br/>Hòa: recall cao hơn, sau đó ngưỡng thấp hơn"]:::implemented
+  H["Cố định mô hình/calibration/ngưỡng → fit toàn train<br/>Lưu artifact → robustness → finalize trên holdout"]:::implemented
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+  G --> H
+  classDef implemented fill:#e5f1f7,stroke:#22617d,color:#153a4c;
+  classDef proposed fill:#fff1db,stroke:#b77420,stroke-dasharray:5 4,color:#6a461a;

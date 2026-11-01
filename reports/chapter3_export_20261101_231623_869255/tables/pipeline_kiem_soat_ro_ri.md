@@ -1,0 +1,17 @@
+# Thứ tự tiền xử lý và kiểm soát rò rỉ
+
+Vị trí: §3.4.3 và §3.5 — cập nhật Bảng 3.3.
+
+Nguồn: src/data.py; src/thesis_preprocessing.py; src/thesis.py.
+
+Trạng thái: Đã xác minh từ mã/config/artifact.
+
+| Bước | Thao tác | Nguồn | Ranh giới/giới hạn |
+|---|---|---|---|
+| Trước split | Kiểm tra nhãn 0/1, strip chuỗi, alias, kiểm tra xung đột, loại trùng bỏ ID khỏi khóa nhưng giữ Churn | src/data.py:clean | Không học tham số; alias Mobile/Mobile Phone chưa xác minh |
+| prepare.fit | Chọn cờ thiếu q_BH<0,05; chi-square correction=False, Fisher nếu expected<5; học median/mode/danh mục/log | src/thesis_preprocessing.py:PrepareFrame.fit | Chỉ fit trên train fold với y_train |
+| prepare.transform | Tỷ số (nếu cấu hình): chia OrderCount>0 trước điền; median → log1p; nominal mã số; cờ thiếu; IsNewCustomer | PrepareFrame.transform | IsNewCustomer=1 khi Tenure≤1 và không thiếu; thiếu→0; chưa xác minh đơn vị Tenure |
+| sample (P2/P3) | Scale biến liên tục để đo khoảng cách → SMOTE-NC → inverse scale → tính lại biến phụ thuộc | LogicalSMOTENC.fit_resample | Nominal, Complain, cờ Missing và IsNewCustomer là rời rạc; chỉ train |
+| finish.fit/transform | One-hot sau sampling: drop mã 0; unknown ignore; StandardScaler số nếu LR; bỏ cột __ nội bộ | FinishFrame | Tham số fit từ train đã sampling nếu có; validation chỉ transform |
+| model.fit/predict | Trọng số tính theo fit; huấn luyện → xác suất lớp 1 trên validation nguyên trạng | src/thesis.py:run_cv; src/experiment.py:FoldWeightedXGB | Không fit/resample validation; y_validation chỉ metric |
+| Toàn quy trình | Chọn đặc trưng/ứng viên/calibration/ngưỡng chỉ từ train; giữ nguyên holdout | src/thesis.py:tune,finalize | Holdout từng được quan sát pilot; CV chọn trên train vẫn có thiên lệch lựa chọn |

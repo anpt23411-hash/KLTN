@@ -1,0 +1,56 @@
+{
+  "rows_before": 5630,
+  "duplicates_before_normalization_excluding_id": 556,
+  "duplicates_after_normalization_excluding_id": 557,
+  "rows_after": 5073,
+  "class_counts_before": {
+    "0": 4682,
+    "1": 948
+  },
+  "class_counts_after": {
+    "0": 4232,
+    "1": 841
+  },
+  "missing_after": {
+    "CustomerID": 0,
+    "Churn": 0,
+    "Tenure": 231,
+    "PreferredLoginDevice": 0,
+    "CityTier": 0,
+    "WarehouseToHome": 221,
+    "PreferredPaymentMode": 0,
+    "Gender": 0,
+    "HourSpendOnApp": 230,
+    "NumberOfDeviceRegistered": 0,
+    "PreferedOrderCat": 0,
+    "SatisfactionScore": 0,
+    "MaritalStatus": 0,
+    "NumberOfAddress": 0,
+    "Complain": 0,
+    "OrderAmountHikeFromlastYear": 252,
+    "CouponUsed": 210,
+    "OrderCount": 243,
+    "DaySinceLastOrder": 288,
+    "CashbackAmount": 0
+  },
+  "alias_rules": {
+    "PreferredLoginDevice": {
+      "Phone": "Mobile Phone"
+    },
+    "PreferredPaymentMode": {
+      "CC": "Credit Card",
+      "COD": "Cash on Delivery"
+    },
+    "PreferedOrderCat": {
+      "Mobile": "Mobile Phone"
+    }
+  },
+  "outliers_removed": 0,
+  "conflicting_feature_groups": 0,
+  "raw_sha256": "db70f1e34bc5326887ea3fb3d2a0854e82c577d55ef3a76fdfb25328631bd44d",
+  "raw_missing": 1856,
+  "rows_with_missing": 1675,
+  "max_missing_per_row": 1,
+  "id_overlap": 0,
+  "alias_equivalence": "Mobile/Mobile Phone category merge remains an explicit assumption"
+}

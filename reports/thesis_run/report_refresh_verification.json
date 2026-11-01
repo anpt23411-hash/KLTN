@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "protected_artifacts": 104,
+  "changed_artifacts": [],
+  "holdout_reevaluated": false,
+  "model_refitted": false,
+  "original_report_backup": "report_history/RESULTS.before_status_audit.md"
+}

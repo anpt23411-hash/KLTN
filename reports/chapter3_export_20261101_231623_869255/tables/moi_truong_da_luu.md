@@ -1,0 +1,22 @@
+# Phiên bản môi trường được metadata ghi lại
+
+Vị trí: §3.12.
+
+Nguồn: models/thesis_run/metadata.json.
+
+Trạng thái: Đã xác minh từ mã/config/artifact.
+
+| Thành phần | Phiên bản đã lưu | Trạng thái |
+|---|---|---|
+| Python | 3.15.1 | Metadata lịch sử, không suy ra từ runtime xuất hình |
+| pandas | 3.1.0 | Metadata lịch sử |
+| numpy | 2.5.4 | Metadata lịch sử |
+| scipy | 1.18.1 | Metadata lịch sử |
+| statsmodels | 0.15.0 | Metadata lịch sử |
+| scikit-learn | 1.9.1 | Metadata lịch sử |
+| imbalanced-learn | 0.14.2 | Metadata lịch sử |
+| xgboost | 3.4.1 | Metadata lịch sử |
+| shap | 0.54.1 | Metadata lịch sử |
+| matplotlib | 3.11.2 | Metadata lịch sử |
+| joblib | 1.6.0 | Metadata lịch sử |
+| openpyxl | 3.1.5 | Metadata lịch sử |

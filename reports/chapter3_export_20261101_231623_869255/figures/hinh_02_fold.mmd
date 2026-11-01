@@ -1,0 +1,25 @@
+flowchart TB
+  %% Tiền xử lý và đánh giá trong từng fold
+  S["Train phát triển → chia chỉ số fold<br/>Validation không tham gia fit"]:::implemented
+  T["HUẤN LUYỆN: fit / resample<br/>X_train_fold + y_train_fold"]:::implemented
+  V["VALIDATION: transform / predict<br/>X_validation; giữ y riêng"]:::implemented
+  P["prepare.fit rồi transform<br/>Học cờ thiếu, median/mode,<br/>danh mục và log từ train"]:::implemented
+  PV["prepare.transform<br/>Dùng trạng thái học từ train<br/>Không học cờ/median mới"]:::implemented
+  R["Chỉ P2/P3: scale khoảng cách<br/>SMOTE-NC → inverse scale<br/>Tính lại biến phụ thuộc"]:::implemented
+  RV["Không resample validation<br/>Giữ nguyên phân bố lớp"]:::implemented
+  F["finish.fit rồi transform<br/>One-hot; scale số nếu LR<br/>Sau đó model.fit"]:::implemented
+  FV["finish.transform<br/>Dùng encoder/scaler train<br/>model.predict_proba"]:::implemented
+  O["Xác suất validation + y_validation → metric fold / OOF<br/>Không dùng validation để học tiền xử lý hoặc sinh mẫu"]:::implemented
+  S --> T
+  S --> V
+  T --> P
+  V --> PV
+  P -->|"trạng thái"| PV
+  P --> R
+  PV --> RV
+  R --> F
+  RV --> FV
+  F -->|"trạng thái"| FV
+  FV --> O
+  classDef implemented fill:#e5f1f7,stroke:#22617d,color:#153a4c;
+  classDef proposed fill:#fff1db,stroke:#b77420,stroke-dasharray:5 4,color:#6a461a;

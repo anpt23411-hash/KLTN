@@ -1,0 +1,6 @@
+group,count,positive_rate,feature
+Cash on Delivery,364,0.2692307692307692,PreferredPaymentMode
+Credit Card,1273,0.1406127258444619,PreferredPaymentMode
+Debit Card,1693,0.14589486119314826,PreferredPaymentMode
+E wallet,443,0.22799097065462753,PreferredPaymentMode
+UPI,285,0.16842105263157894,PreferredPaymentMode

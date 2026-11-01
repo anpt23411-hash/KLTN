@@ -1,0 +1,141 @@
+{
+  "algorithm": "hist_gradient_boosting",
+  "scenario": "P0",
+  "version": "untuned",
+  "threshold": 0.3594360844443061,
+  "calibrated": false,
+  "features": {
+    "features": {
+      "flags": "significant",
+      "include_new": true,
+      "tenure_threshold": 1,
+      "ratio": []
+    },
+    "drop_columns": [],
+    "basis": "training repeated 5x3 AP; fold-local FDR flag selection",
+    "limitation": "Selection diagnostics on development data; no claim of independent feature-selection performance"
+  },
+  "params": {},
+  "raw_oof": {
+    "average_precision": 0.9273927631881934,
+    "roc_auc": 0.9776388709036677,
+    "brier": 0.03554186898396374,
+    "accuracy": 0.9549038935436176,
+    "precision": 0.9124579124579124,
+    "recall": 0.8053491827637445,
+    "f1": 0.8555643251775849,
+    "f2": 0.8247108947048083,
+    "mcc": 0.8312368915790693,
+    "balanced_accuracy": 0.8949936460347525,
+    "ece": 0.015540264859529829
+  },
+  "sigmoid_oof": {
+    "average_precision": 0.9075702700394678,
+    "roc_auc": 0.9754822538908434,
+    "brier": 0.04218298545061304,
+    "accuracy": 0.9465253819615574,
+    "precision": 0.8812709030100334,
+    "recall": 0.7830609212481426,
+    "f1": 0.8292682926829268,
+    "f2": 0.8009118541033434,
+    "mcc": 0.7996542116068263,
+    "balanced_accuracy": 0.881043016015504,
+    "ece": 0.030426222184825265
+  },
+  "oof_selection_bias": true,
+  "candidates": [
+    {
+      "algorithm": "hist_gradient_boosting",
+      "scenario": "P0",
+      "version": "untuned",
+      "metrics": {
+        "average_precision": 0.927378654655947,
+        "roc_auc": 0.9776388709036677,
+        "brier": 0.03554186898396374,
+        "accuracy": 0.9549038935436176,
+        "precision": 0.9124579124579124,
+        "recall": 0.8053491827637445,
+        "f1": 0.8555643251775849,
+        "f2": 0.8247108947048083,
+        "mcc": 0.8312368915790693,
+        "balanced_accuracy": 0.8949936460347525,
+        "ece": 0.015540264859529829
+      },
+      "search_seconds": 10.708477700012736,
+      "params": {}
+    },
+    {
+      "algorithm": "random_forest",
+      "scenario": "P0",
+      "version": "untuned",
+      "metrics": {
+        "average_precision": 0.9243402080123694,
+        "roc_auc": 0.9784380000043895,
+        "brier": 0.04328891079349433,
+        "accuracy": 0.9457861015278463,
+        "precision": 0.8845500848896435,
+        "recall": 0.774145616641902,
+        "f1": 0.8256735340729001,
+        "f2": 0.7939652544955806,
+        "mcc": 0.7962166254570715,
+        "balanced_accuracy": 0.8770284951747176,
+        "ece": 0.0516017742730409
+      },
+      "search_seconds": 1484.6791266000364,
+      "params": {}
+    },
+    {
+      "algorithm": "random_forest",
+      "scenario": "P0",
+      "version": "tuned",
+      "metrics": {
+        "average_precision": 0.8939566213981609,
+        "roc_auc": 0.9649548638012734,
+        "brier": 0.04648780474761994,
+        "accuracy": 0.9435682602267127,
+        "precision": 0.8801369863013698,
+        "recall": 0.763744427934621,
+        "f1": 0.8178202068416865,
+        "f2": 0.7844932844932845,
+        "mcc": 0.7873943968766783,
+        "balanced_accuracy": 0.8715324798461879,
+        "ece": 0.03230239405602887
+      },
+      "search_seconds": 1484.6791266000364,
+      "params": {
+        "model__n_estimators": 100,
+        "model__min_samples_split": 5,
+        "model__min_samples_leaf": 1,
+        "model__max_features": 1.0,
+        "model__max_depth": null
+      }
+    },
+    {
+      "algorithm": "hist_gradient_boosting",
+      "scenario": "P0",
+      "version": "tuned",
+      "metrics": {
+        "average_precision": 0.8672329652924174,
+        "roc_auc": 0.9603464282814005,
+        "brier": 0.05406128631907469,
+        "accuracy": 0.9270576638738295,
+        "precision": 0.8396396396396396,
+        "recall": 0.6924219910846954,
+        "f1": 0.758957654723127,
+        "f2": 0.7175854635047736,
+        "mcc": 0.7210725970568165,
+        "balanced_accuracy": 0.8330647621597775,
+        "ece": 0.024951668253522744
+      },
+      "search_seconds": 10.708477700012736,
+      "params": {
+        "model__min_samples_leaf": 20,
+        "model__max_leaf_nodes": 15,
+        "model__max_iter": 150,
+        "model__max_depth": 6,
+        "model__learning_rate": 0.05,
+        "model__l2_regularization": 0.0
+      }
+    }
+  ]
+}

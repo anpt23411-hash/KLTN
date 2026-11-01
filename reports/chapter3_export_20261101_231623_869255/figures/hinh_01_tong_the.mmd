@@ -1,0 +1,19 @@
+flowchart TB
+  %% Quy trình nghiên cứu tổng thể
+  A["Đọc dữ liệu thật → chuẩn hóa tất định<br/>Kiểm tra nhãn/xung đột → loại trùng"]:::implemented
+  B["Chia phân tầng sau làm sạch: train 80% / holdout 20%<br/>Giữ holdout riêng; công bố đã từng quan sát ở pilot"]:::implemented
+  C["Chỉ train: EDA → nghiên cứu đặc trưng A–F<br/>Repeated 5×3; chọn đặc trưng theo quy tắc"]:::implemented
+  D["Smoke → benchmark 5 thuật toán × P0–P3 + 2 dummy<br/>Repeated 5×3; 5 fold đầu dùng chọn đại diện"]:::implemented
+  E["Shortlist → tuning và untuned → calibration → ngưỡng OOF<br/>Fit toàn train, lưu mô hình và quyết định"]:::implemented
+  F["Robustness trên train → diễn giải và đo thời gian<br/>Sau đó đánh giá holdout với quyết định đã cố định"]:::implemented
+  G["Xuất artifact ML và báo cáo<br/>Hình kết quả thực nghiệm đặt tại Chương 4"]:::implemented
+  H["Tích hợp AI Agent và kiểm thử hệ thống<br/>Giai đoạn đề xuất — chưa triển khai"]:::proposed
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+  E --> F
+  F --> G
+  G -.-> H
+  classDef implemented fill:#e5f1f7,stroke:#22617d,color:#153a4c;
+  classDef proposed fill:#fff1db,stroke:#b77420,stroke-dasharray:5 4,color:#6a461a;

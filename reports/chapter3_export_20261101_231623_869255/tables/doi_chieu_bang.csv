@@ -1,0 +1,13 @@
+﻿Bảng,Vị trí bản trích,Hiện trạng,Xử lý đề xuất,Căn cứ/giới hạn
+3.1,§3.2.3; 0627–0666,Đã có,Cập nhật/ghi giới hạn,"Giữ 18 tên biến; đơn vị/horizon/ngữ nghĩa chỉ là mô tả trong bản trích, chưa xác minh nguồn"
+3.2,Không thấy caption trong bản trích,Chưa xác minh,Chưa cấp số thay thế,Cần Word mới nhất để xác nhận bảng thiếu hay lỗi trích xuất
+3.3,§3.4.3; 0741,Đã có,Cập nhật,Tách làm sạch tất định trước split với phép học theo fold; công bố holdout từng quan sát
+3.4,§3.5.2; 0780,"Đã có, chứa kết quả",Giữ phương pháp; chuyển số liệu sang Chương 4,Chi-square không correction; Fisher nếu expected<5; BH riêng các biến có thiếu trong từng fit
+3.5,§3.5.5; 0863,"Đã có, chứa kết quả A–F",Giữ thiết kế A–F; chuyển AP/delta sang Chương 4,Không cố định 5 cờ hoặc 31 chiều cho mọi fold
+3.6,§3.6.1; 0903,Đã có,Cập nhật mẫu số/phạm vi,"Tách dữ liệu trước/sau làm sạch, train/holdout; là mô tả dữ liệu, không phải hiệu năng"
+3.7,§3.6.3; 0944,Đã có,Đối chiếu P0–P3,"SMOTE-NC chỉ train; chuẩn hóa khoảng cách trước sampling, hoàn nguyên sau sampling"
+Chưa đánh số,§3.7.2; 0996–1027,Đã có bảng P và cơ chế trọng số,Cập nhật/loại trùng,"HGB class_weight; XGB sample_weight tính từng fit; phiên bản lấy metadata, không ghi sklearn 1.8.0"
+Chưa đánh số,§3.7.4; 1048–1059,Đã có nhóm siêu tham số,Thay bằng không gian được khai báo,Chỉ RF/HGB được tuning; không gọi toàn bộ không gian các mô hình khác là đã khảo sát
+Chưa đánh số,§3.8.6; 1144–1155,Đã có bảng điểm/nhóm,Đối chiếu công thức,Ngưỡng F1 khác ranh giới nhóm cao; không công bố ngưỡng số được chọn ở Chương 3
+Chưa đánh số,§3.8.7; 1160–1180,Đã có tiêu chí chọn,Cập nhật quy tắc cụ thể,"Mean AP 5 fold; SD hiệu 15 fold dùng quy tắc ưu tiên, không là kiểm định tương đương"
+Agent,§3.10–3.11; 1231–1245,Chỉ có đề mục trong bản trích,Chèn kiến trúc đề xuất và trạng thái,Không có nội dung thiết kế chi tiết/triển khai/kiểm thử Agent để xác nhận

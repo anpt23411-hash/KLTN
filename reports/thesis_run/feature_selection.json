@@ -1,0 +1,11 @@
+{
+  "features": {
+    "flags": "significant",
+    "include_new": true,
+    "tenure_threshold": 1,
+    "ratio": []
+  },
+  "drop_columns": [],
+  "basis": "training repeated 5x3 AP; fold-local FDR flag selection",
+  "limitation": "Selection diagnostics on development data; no claim of independent feature-selection performance"
+}

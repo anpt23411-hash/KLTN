@@ -1,0 +1,4 @@
+group,count,positive_rate,feature
+1,2634,0.13895216400911162,CityTier
+2,160,0.175,CityTier
+3,1264,0.22072784810126583,CityTier

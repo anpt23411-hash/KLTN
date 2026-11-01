@@ -1,0 +1,4 @@
+{
+  "error": "Additivity check failed in TreeExplainer! Please ensure the data matrix you passed to the explainer is the same shape that the model was trained on. If your data shape is correct then please report this on GitHub. This check failed because for one of the samples the sum of the SHAP values was -4.518292, while the model output was -4.663775. If this difference is acceptable you can set check_additivity=False to disable this check.",
+  "action": "Use a compatible explainer and independently verify additivity; never disable the check"
+}
